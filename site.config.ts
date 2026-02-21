@@ -45,7 +45,7 @@ export default siteConfig({
    pageUrlOverrides: {
      '/About': '30efa28dfaa780bd99dcedbd9b1d63ad',
      '/Contact': '30efa28dfaa780df970af08310843a10'
-   }
+   },
   //pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
