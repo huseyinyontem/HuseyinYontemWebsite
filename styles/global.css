@@ -60,3 +60,15 @@ body {
 ::-webkit-scrollbar-track {           
     background-color: var(--bg-color);
 }
+/* Galeri Görünümündeki Kapak Görsellerini Küçültme */
+.notion-collection-card-cover {
+  height: 200px !important; /* Yüksekliği 200 piksel ile sınırla (istediğiniz gibi değiştirebilirsiniz) */
+  min-height: 200px !important;
+  object-fit: cover !important; /* Resmi kutuya sığdır ama oranını bozma */
+  border-bottom: 1px solid var(--fg-color-0); /* Görselin altına ince bir çizgi ekle */
+}
+
+/* Kartın başlık kısmını biraz daha yukarı taşıma (isteğe bağlı) */
+.notion-collection-card-body {
+    padding-top: 1rem !important;
+}
