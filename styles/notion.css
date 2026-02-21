@@ -403,3 +403,7 @@
 .notion-equation.notion-equation-block{
   align-items: center;
 }
+/* Yan tarafta yüzen sosyal medya bloğunu tamamen gizle */
+.notion-aside {
+  display: none !important;
+}
