@@ -60,15 +60,17 @@ body {
 ::-webkit-scrollbar-track {           
     background-color: var(--bg-color);
 }
-/* Galeri Görünümündeki Kapak Görsellerini Küçültme */
-.notion-collection-card-cover {
-  height: 100px !important; /* Yüksekliği 200 piksel ile sınırla (istediğiniz gibi değiştirebilirsiniz) */
-  min-height: 100px !important;
-  object-fit: cover !important; /* Resmi kutuya sığdır ama oranını bozma */
-  border-bottom: 1px solid var(--fg-color-0); /* Görselin altına ince bir çizgi ekle */
+/* Blog yazılarını yan yana 2'li sütun (Grid) yapmaya zorla */
+.notion-gallery-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 1.5rem !important;
 }
 
-/* Kartın başlık kısmını biraz daha yukarı taşıma (isteğe bağlı) */
-.notion-collection-card-body {
-    padding-top: 1rem !important;
+/* Mobilde taşmayı önlemek için kapak görsellerinin boyutunu sabitle */
+.notion-collection-card-cover {
+  height: 180px !important;
+  min-height: 180px !important;
+  max-height: 180px !important;
+  object-fit: cover !important;
 }
