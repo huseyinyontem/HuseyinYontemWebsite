@@ -11,7 +11,7 @@ export default siteConfig({
   // basic site info (required)
   name: 'Hüseyin Yöntem Website',
   domain: 'www.huseyinyontem.com',
-  author: 'Travis Fischer',
+  author: 'Hüseyin Yöntem',
 
   // open graph metadata (optional)
   description: 'Hüseyin Yöntem Website',
