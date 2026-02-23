@@ -74,7 +74,3 @@ body {
   max-height: 180px !important;
   object-fit: cover !important;
 }
-/* Sağ üst köşedeki GitHub kurdelesini tamamen gizle */
-.github-corner {
-  display: none !important;
-}
