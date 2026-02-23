@@ -43,6 +43,7 @@ export default siteConfig({
   // example:
   //
    pageUrlOverrides: {
+     '/Blog': '30efa28dfaa78040a5c6c83393828f6b',
      '/About': '30efa28dfaa780bd99dcedbd9b1d63ad',
      '/Contact': '30efa28dfaa780df970af08310843a10'
    },
@@ -54,10 +55,14 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
      {
-       title: 'About',
-       pageId: '30efa28dfaa780bd99dcedbd9b1d63ad'
+       title: 'Blog',
+       pageId: '30efa28dfaa78040a5c6c83393828f6b'
      },
      {
+       title: 'About',
+       pageId: '30efa28dfaa780bd99dcedbd9b1d63ad'
+     }
+      {
        title: 'Contact',
        pageId: '30efa28dfaa780df970af08310843a10'
      }
