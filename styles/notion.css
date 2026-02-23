@@ -407,3 +407,7 @@
 .notion-aside {
   display: none !important;
 }
+/* Sağ üst köşedeki GitHub kurdelesini tamamen gizle */
+.github-corner {
+  display: none !important;
+}
